@@ -50,7 +50,7 @@ function RouterFunction($stateProvider) {
                 })
                 .state("WDInstagramShow", {
                   url: "/entries/:id",
-                  templateUrl: "js/ng-views/show.html"
+                  templateUrl: "js/ng-views/show.html",
                   controller: "WDInstagramShowController",
                   controllerAs: "vm"
                 })
